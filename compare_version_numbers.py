@@ -48,5 +48,5 @@ for a in range(11):
                 x.append((a, b, c))
 print x
 
-x = [(a,b,c) for a in range(1, 11) for b in range(1, 11) for c in range(1, 11) if a+b+c==24 and a*a+b*b==c*c]
+x = [(a, b, c) for a in range(1, 11) for b in range(1, 11) for c in range(1, 11) if a+b+c==24 and a*a+b*b==c*c]
 print x
